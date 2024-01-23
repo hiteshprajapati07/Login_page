@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <section class="login-page">
+        <div class="login-page-div">
+        <form action="" class="frm">
+            <h1>let's begin Journey</h1>
+            <fieldset id="fieldset">
+                <!-- <legend id="legend-sign-up">
+                    <h3>SignUp</h3>
+                </legend> -->
+                <div id="lsoption">
+                <a href="index.html" ><h3 id="signuplogo">SignUp</h3></a>
+                <a href="login.html"><h3 id="signuplogo">login</h3></a>
+                </div>
+                <div class="frm-input">
+                <input type="email" onclick="legendsignup()"  placeholder="Email" name="email" id="email" autocomplete="off" required>
+                <input type="password" onclick="legendsignup()"  placeholder="Password" id="password" autocomplete="off" required>
+                <p id="alertmatchpassword"></p>
+
+            </div>
+            <input type="submit" value="Login"  id="lg-btn" >
+            </fieldset>
+        </form>
+    </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>

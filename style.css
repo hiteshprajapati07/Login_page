@@ -1,0 +1,122 @@
+*{
+    text-decoration: none;
+}
+body{
+
+    background: linear-gradient(to bottom right ,black,grey);
+    height: 600px;
+
+}
+.login-page-div{
+   /* position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%); */
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+fieldset {
+    width: 260px;
+    height: 410px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 5px #fd33;
+}
+
+.frm h1{
+    font-size: 40px;
+    color: rgba(243, 210, 42, 0.911);
+}
+/* .frm #clkhere{
+    font-size: 20px;
+
+} */
+.frm #lsoption{
+    display: flex;
+    flex-direction: row;
+}
+.frm #lsoption #signuplogo{
+    padding: 10px 40px; 
+    font-size: 20px;
+    border: #fff 1px solid;
+    border-radius: 1px;
+    transition: 0.5s;
+}
+.frm #lsoption #signuplogo:hover{
+    background-color: #fff;
+    color:gray;
+}
+
+.frm h3{
+    text-align: center;
+    font-size: 30px;
+    color: wheat;
+}
+
+.frm .frm-input input , p{
+    display: block;
+    color: #fff;
+    width: 250px;
+    height: 25px;
+    margin: auto;
+    padding: 10px 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background-color: rgba(255, 255, 255,0);
+    font-size: 16px;
+    
+}
+
+
+
+.frm #lg-btn{
+    width: 50%;
+    font-size: 18px;
+    margin: 0% 25%;
+    margin-top: 0%;
+    padding: 10px 0px;
+    border-radius: 20px;
+    outline: none;
+    background-color: goldenrod;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.frm #lg-btn:hover{
+    transform: scale(1.02);
+}
+.frm .alregis{
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+.frm .alregis a{
+    text-decoration: none;
+    font-size: 14px;    
+    color: blue;
+}
+
+
+.frm .frm-input input::placeholder{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: white; */
+    transition: 0.5ms;
+}
+.frm .frm-input input:hover::placeholder{
+    color: white;
+    transform: translateY(-10px);
+}
+.frm .frm-input input:hover{
+    border-color: white ;
+    /* border: 2px; */
+}
+.frm .frm-input input:focus{
+    color: white;
+    /* font-size: 16px; */
+}
+
